@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodZero Restaurant</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar  fixed-top bg-olive">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="FoodZero Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            <div class="right-side d-flex  align-items-center gap-3">
+                <span class="text-white">+86 852 346 000</span>
+                <a href="#" class="btn btn-outline-light">Reservations</a>
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero vh-100 pt-5 bg-olive text-white ">
+        <div class="container ">
+            <div class="row ">
+                <!--Text-->
+                <div class="col-md-6 ">
+                    <h1 class="mb-3 pt-5">Healthy Eating is important part of lifestyle</h1>
+                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu</p>
+                </div>
+                <!--Right , Img-->
+                <div class="col-md-6 text-center">
+                    <img src="img/hero/steakhero.png" alt="Steak" class="steak-img mx-auto d-block ">
+
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="dishes">
+              <div class="container">
+                <div class="row text-center">
+        <!-- Dish 1 -->
+                    <div class="col-4 col-md-3 col-lg-2 mb-3 ">
+                        <img src="./img/hero/dishes/spices1.png" alt="Soup" class="img-fluid rounded mb-3">
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 mb-3 ">
+                        <img src="./img/hero/dishes/spices2.png" alt="Soup" class="img-fluid rounded mb-3">
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 mb-3 ">
+                        <img src="./img/hero/dishes/spices3.png" alt="Soup" class="img-fluid rounded mb-3">
+                    </div>
+    
+                </div>
+              </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
